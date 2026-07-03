@@ -101,6 +101,11 @@ The pipeline is organized into four phases, following a CRISP-DM flow with a del
 
 **Logistic Regression** was selected and retrained on the full balanced set. The strong regularization (`C=0.1`) indicates a model that generalizes rather than overfits.
 
+<p align="center">
+  <img src="LogisticRegressionConfusionMatrix.png" alt="Cross-validated confusion matrix of the winning Logistic Regression model" width="520"/>
+  <br/><em>Cross-validated confusion matrix of the winning model — Logistic Regression.</em>
+</p>
+
 ---
 
 ## 🔎 Key Findings
@@ -123,6 +128,11 @@ The pipeline is organized into four phases, following a CRISP-DM flow with a del
 Students appear **less tolerant of operational inefficiency** than tourists.
 
 **3. Root cause of complaints** — n-gram mining reveals the biggest issue is **not the product**, but a **service bottleneck**. Dominant negative phrases: *"layan lama"* (slow service), *"makan lama"*, *"nunggu lama"* (long waits), and friction over basics like *"tukang parkir"* (parking). This aligns with the infrastructure/operational hypothesis for the Education Zone.
+
+<p align="center">
+  <img src="KomparasiAkarMasalahOperasional.png" alt="Comparison of operational root-cause complaints between Education and Tourism zones" width="820"/>
+  <br/><em>The core deliverable — a side-by-side comparison of operational root causes, Education vs. Tourism zone.</em>
+</p>
 
 ---
 
@@ -194,6 +204,16 @@ Geo-SentimentCafeAnalysis/
 ```
 
 The notebook flows through **24 cells** across four phases: data engineering & temporal split → historical IndoBERT labeling + model tournament → blind 2026 inference → topic modeling, n-gram root-cause analysis, and geospatial dashboards.
+
+---
+
+## 🖼️ Research Poster
+
+A one-page visual summary of the study:
+
+<p align="center">
+  <a href="Poster.png"><img src="Poster.png" alt="Research poster — Geo-Sentiment Analysis of Purwokerto Cafés" width="750"/></a>
+</p>
 
 ---
 
